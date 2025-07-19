@@ -1,0 +1,14 @@
+### Quality Control:
+- Tool: **FastQC v0.11.9**
+- Command: `fastqc *.fastq.gz`
+
+### Adapter Trimming:
+- Tool: **Trimmomatic v0.39**
+- Command example: `java -jar trimmomatic-0.39.jar PE -threads 20 -phred33 -trimlog /trimlog ./*_fwd.fq ./*_rev.fq -baseout /trimmomatic/*.fq ILLUMINACLIP:adapters/TruSeq3-PE-2.fa:2:30:10 LEADING:20 TRAILING:20 SLIDINGWINDOW:4:20 MINLEN:150
+`
+
+### Ribosomal RNA Removal:
+- Tool: **SortMeRNA v4.3.6**
+- Databases: SILVA, Rfam
+- Command example: `sortmerna --ref /media/metatrans/HDD/sortmerna/silva-euk-28s-id98.fasta --ref /media/metatrans/HDD/sortmerna/silva-euk-18s-id95.fasta --ref /media/metatrans/HDD/sortmerna/silva-bac-23s-id98.fasta --ref /media/metatrans/HDD/sortmerna/silva-bac-16s-id90.fasta --ref /media/metatrans/HDD/sortmerna/silva-arc-23s-id98.fasta --ref /media/metatrans/HDD/sortmerna/silva-arc-16s-id95.fasta --ref /media/metatrans/HDD/sortmerna/rfam-5s-database-id98.fasta --ref /media/metatrans/HDD/sortmerna/rfam-5.8s-database-id98.fasta --reads /trimmomatic/*_1P.fq --reads /trimmomatic/*_2P.fq --other /sortmerna/*_smr.fq --out2 --fastx --threads 24 --workdir /smrwd/* --paired_in
+`
