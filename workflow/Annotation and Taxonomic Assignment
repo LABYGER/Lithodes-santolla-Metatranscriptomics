@@ -1,0 +1,16 @@
+##  Annotation and Taxonomic Assignment
+
+### ORF Prediction:
+- Tool: **TransDecoder v5.7.1**
+- Parameters: minimum ORF of 50 amino acids
+
+### Sequence Similarity Search:
+- Tool: **DIAMOND v2.1.8**
+- Database: NCBI nr (downloaded 2024-11-02)
+- Mode: more-sensitive, e-value < 1E-5
+
+### Taxonomic Assignment:
+- Tool: **MEGAN6 CE v6.25.10**, LCA method
+
+### Functional Annotation:
+- Tool: **eggNOG-mapper v2**, **KAAS (KEGG Automatic Annotation Server)**
