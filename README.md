@@ -25,7 +25,6 @@ This repository contains:
 ## Acknowledgements and Authorship
 
 These scripts were developed by **Alexandra Brante** as part of her **Master’s Thesis in Biological Sciences (Biodiversity and Conservation)** at **Universidad de Valparaíso**, conducted under the supervision of **Dr. Rodolfo Farlora** at the **Laboratorio de Biotecnología Acuática y Genómica Reproductiva (LABYGER)**.  
-The repository is made publicly available in compliance with open science standards and the requirements of the journal *Microbiome*.
 
 ---
 
