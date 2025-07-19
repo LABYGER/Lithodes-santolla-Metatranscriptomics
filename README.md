@@ -32,8 +32,8 @@ The repository is made publicly available in compliance with open science standa
 ## Contact
 For questions or inquiries, please contact:  
 **Dr. Rodolfo Farlora**  
-[rodolfo.farlora@uv.cl](mailto:rodolfo.farlora@uv.cl)
-**MSc. Alexandra Brante**
+[rodolfo.farlora@uv.cl](mailto:rodolfo.farlora@uv.cl)  
+**MSc. Alexandra Brante**  
 [alexandra.brante@postgrado.uv.cl](mailto:alexandra.brante@postgrado.uv.cl)
 
 ---
