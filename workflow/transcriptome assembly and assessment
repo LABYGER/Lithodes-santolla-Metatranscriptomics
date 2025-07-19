@@ -1,0 +1,29 @@
+##  Transcriptome Assembly and Assessment
+
+### De novo Assembly:
+- Tool: **Trinity v2.15.1**
+- Command: `Trinity --seqType fq --max_memory 100G --samples_file /samples_file.txt --CPU 12 --min_contig_length 150 --output /trinity_output`
+
+
+
+### Assembly Quality:
+- Mapping: **Bowtie2 v2.5.4**
+- Completeness: **BUSCO v5.8.2** (against arthropoda_odb10, eukaryota_odb10, bacteria_odb12, archaea_odb12 databases)
+- Redundancy Reduction: **CD-HIT v4.8.1** (95% identity)
+
+---
+
+##  Differential Expression Analysis
+
+### Abundance Estimation:
+- Tool: **Salmon within Trinity**
+- Command: `align_and_estimate_abundance.pl`
+
+### Normalization:
+- Method: TMM (Trimmed Mean of M-values)
+
+### Statistical Testing:
+- Tool: **DESeq2 within Trinity **
+- Criteria: FDR < 0.05, |log2FC| > 2
+
+---
