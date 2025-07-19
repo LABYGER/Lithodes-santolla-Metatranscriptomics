@@ -21,7 +21,5 @@ This document describes the methodological workflow used for bioinformatic analy
 | **MEGAN6 CE**    | `6.25.10` | Taxonomic binning                  |
 | **eggNOG-mapper**| `2.1.12`  | Functional annotation              |
 | **KAAS (KEGG)**  | Web       | KEGG pathway annotation            |
-| **Salmon**       | `1.10.1`  | Transcript quantification           |
-| **DESeq2 (R)**   | `1.40.0`  | Differential expression analysis    |
-| **GOSeq (R)**    | `1.54.0`  | GO enrichment analysis              |
+
 
